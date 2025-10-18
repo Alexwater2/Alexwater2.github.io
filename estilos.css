@@ -11,9 +11,6 @@ padding: 0px;
 text-align: center;
 
 
-
-
-
 }
 li{
  background-color: green;
@@ -27,8 +24,6 @@ li{
     border:solid orange;
     margin: 14px;
   
-    
-    
     
     
 }
@@ -57,12 +52,19 @@ img{
     border: solid orange 2px;
    display: inline;
 }
+
 h2{
 font-family: "Kablammo";
     text-decoration: underline green 10px;
-    letter-spacing: 10px;
+    letter-spacing:0px;
 
 }
+
+h3{
+color:black;
+}
+
+
 article{
     display: inline-block;
     width: 50%;
@@ -80,7 +82,6 @@ a{
 }
 
 
-
 footer{
     background-color: green;
     padding: 15px;
@@ -94,9 +95,35 @@ footer{
 #audio{
     background-color: green;
     
+    
 }
 .audio-container{
     text-align: center;
-
 }
 
+.video-container{
+    text-align: center;
+    
+}
+video{
+    border:solid orange;
+}
+
+p{
+    color:black;
+}
+
+#rickrolled{
+    color:red;
+    text-decoration: underline;
+}
+
+#paracaídas{
+   color:mediumspringgreen;
+   text-decoration: underline;
+}
+#extra{
+    color:blueviolet;
+    text-decoration: underline;
+    
+}

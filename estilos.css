@@ -5,6 +5,7 @@ h1{
 color: orange;
 font-size: 40px;
 background-color: green;
+margin-top: 0%;
 
 }
 
@@ -12,6 +13,7 @@ h2{
 font-family: "Kablammo";
     text-decoration: none;
     letter-spacing:0px;
+    
 }
 
 h3{
@@ -67,8 +69,19 @@ img{
    
 }
 
+#famosos{
+    text-align: center;
+    padding-bottom: 0.25%;
+}
 
-
+#compas{
+    text-align:center;
+    text-decoration: underline;
+    color:black;
+   margin-top:7%;
+  
+   font-size: 30px;
+}
 
 article{
     display: inline-block;
@@ -118,6 +131,20 @@ video{
 
 p{
     color:black;
+    
+}
+
+.origen{
+   text-align: center;
+    color: orange;
+    background-color: green;
+    border: solid orange;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    padding-bottom: 0.25%;
+   
+    
+    
 }
 
 #rickrolled{
@@ -138,4 +165,10 @@ p{
     padding-bottom: 7px;
     border: 0px;
    
+}
+
+#parrot{
+    border: 0px;
+    margin-bottom: 11%;
+    
 }

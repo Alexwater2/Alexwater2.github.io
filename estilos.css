@@ -172,3 +172,12 @@ p{
     margin-bottom: 11%;
     
 }
+
+#WarThunder{
+    text-decoration: underline;
+}
+#juegosypelis{
+    background-color: green;
+   border-color: orange;
+   margin: auto;
+}

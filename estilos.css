@@ -1,188 +1,56 @@
 h1{
-    font-family: "Arial";
     text-align: center;
-    padding-top: 7px;
-color: orange;
-font-size: 40px;
-background-color: green;
-margin-top: 0%;
-
+    font-size: 50px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
-
 h2{
-font-family: "Kablammo";
-    text-decoration: none;
-    letter-spacing:0px;
-    
+    color: white;
+    font-family:"Bebas Neue" , sans-serif;    
 }
-
-h3{
-background-color: green;
-
-}
-ol{
-width: auto;
-padding: 0px;
-text-align: center;
-
-
-}
-li{
- background-color: green;
-    display:inline-block;
-    width:14%;
-    font-size: 16px;
+section{
+    display: inline-block;
     text-align: center;
-    height: 27.5px;
-    padding-top: 10px;
-    border-radius: 8px;
-    border:solid orange;
-    margin: 14px;
-  
-    
-    
+    margin: 135px;
 }
 body{
-    margin: auto;
-    width: 100%;
     text-align: center;
-    border: 0px solid black;
-    background-color: white;
-    background-image: url(imagenes/logo_aviones_de_combate-removebg-preview.png);
-    background-size: contain;
+    background-image: url(imagenes.nuevas/fondo.jpg);
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    color:orange;
-    
-    
-}
-div{
-   margin: 0%;
-    padding: 0%;
-    font-size: 0px;
+    background-size:cover;
+
 }
 img{
-     width: 300px;
-    height: 200px;
-    border: solid orange 2px;
-}
-
-
-.grupo2:hover{
-    background-color: green;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 200px;
+    transition: 0.3s;
     
 }
-
-#famosos{
-    text-align: center;
-    padding-bottom: 0.25%;
+img:hover{
+    transform: scale(1.5);
 }
-
-#compas{
-    text-align:center;
-    text-decoration: underline;
-    color:orange;
-   margin-top:7%;
-  
-   font-size: 30px;
-}
-
-article{
-    display: inline-block;
-    width: 30%;
+footer{
     text-align: center;
-    margin: auto;
-    
+    margin-bottom: 0;
 }
 a{
-    text-decoration: none;
-    color:orange;
-}
-
-#yo{
-    text-decoration: underline;
-}
-#juegos{
-    text-decoration: underline;
-}
-
-footer{
-    background-color: green;
-    padding: 15px;
-    text-align: center;
-}
-
-#instagram{
-    color:green;
-}
-
-#audio{
-    background-color: green;
-    
-    
+    color: inherit;
 }
 .audio-container{
-    text-align: center;
+margin-top:0;
+text-align: right;
 }
-
-.video-container{
-    text-align: center;
-    
-}
-video{
-    border:solid orange;
-}
-
-p{
-    color:black;
-    
-}
-
-.origen{
-   text-align: center;
-    color: orange;
-    background-color: green;
-    border: solid orange;
-    margin-left: 11.8%;
-    margin-right: 11.8%;
-    padding-bottom: 0.25%;
-   
-    
-    
-}
-
-#rickrolled{
-    color:red;
+li{
+    display: inline-block;
+    margin: 10px;
     text-decoration: underline;
+    color: white;
 }
-
-#paracaídas{
-   color:mediumspringgreen;
-   text-decoration: underline;
-}
-#extra{
-    color:blueviolet;
-    text-decoration: underline;
-    
-}
-#logo{
-    padding-bottom: 7px;
-    border: 0px;
-   
-}
-
-#parrot{
-    border: 0px;
-    margin-bottom: 11%;
-    
-}
-
-#WarThunder{
-    text-decoration: underline;
-}
-#juegosypelis{
-    background-color: green;
-   border-color: orange;
-   margin: auto;
+nav{
+    text-align: left;
+    margin-left: 0;
 }

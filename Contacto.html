@@ -16,18 +16,29 @@
             width: 300px;
             border: 3px solid black;
             border-radius: 80px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        img:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
         }
         body{
             text-align: center;
         }
         #tiktok{
             border: 3px solid aqua;
+              box-shadow: 0 0 20px #25f4ee;
+            transition: 0.3s;
+        }
+        #instagram{
+              box-shadow: 0 0 20px #e1306c;
+            transition: 0.3s;
         }
     </style>
 </head>
 <body>
     <section>
-        <a href="https://www.instagram.com/alejandro_getafeee_/"><img src="imagenes.nuevas/Instagram.webp" alt=""></a>
+        <a href="https://www.instagram.com/alejandro_getafeee_/"><img  id="instagram" src="imagenes.nuevas/Instagram.webp" alt=""></a>
         <h2>Instagram</h2>
     </section>
     <section>

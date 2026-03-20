@@ -17,7 +17,7 @@
             transition: filter 0.4s;
         }
         img:hover{
-        filter: brightness(20%);
+            filter: brightness(20%);
         }
         section{
             display: inline-block;
@@ -26,27 +26,48 @@
             padding-top: 200px;
         }
         body{
-        background-image: url(imagenes.nuevas/Ejército\ del\ aire\ EE.UU.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size:950px;
-        text-align: center;
+            background-image: url(imagenes.nuevas/Ejército\ del\ aire\ EE.UU.png);
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 950px;
+            text-align: center;
         }
         a{
             color: inherit;
             text-decoration: none;
         }
         h2{
-            font-family: "Inter" , sans-serif;
+            font-family: "Inter", sans-serif;
         }
         li{
-        color: red;
-        text-align: left;
-        display: inline;
+            color: red;
+            text-align: left;
+            display: inline;
         }
         nav{
-        text-align: left;
+            text-align: left;
+        }
+        @media (max-width: 480px) {
+            section {
+                display: block;
+                margin: 20px auto;
+                padding-top: 30px;
+            }
+            img {
+                width: 90%;
+                max-width: 300px;
+            }
+            nav ol {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 10px;
+            }
+            li {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
@@ -77,41 +98,32 @@
     "articleBody": "Aviones de Guerra Electrónica"
   }
 ]
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Leyendas del Aire"
-    "item":https://alexwater2.github.io/index.html
-    
-  }
-  ]
-  [
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Países"
-    "item":https://alexwater2.github.io/Pa%C3%ADses.html
-    
-  }
-  ]
 </script>
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Paises1"
-    "item":https://alexwater2.github.io/Paises1.html
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Leyendas del Aire",
+            "item": "https://alexwater2.github.io/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Países",
+            "item": "https://alexwater2.github.io/Pa%C3%ADses.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "EE.UU",
+            "item": "https://alexwater2.github.io/Paises1.html"
+        }
     ]
-  }
+}
 </script>
 <body>
     <nav>
@@ -124,10 +136,10 @@
 <main>
 <section>
 <a href="Cazas.html"><img src="imagenes.nuevas/Cazas-converted-from-jpg.webp" alt=""></a>
-<h2>Cazas</h2> 
+<h2>Cazas</h2>
 </section>
 <section>
-<a href="Bombarderos.html"><img src="imagenes.nuevas/Bombarderos-converted-from-jpg.webp" alt=""></a> 
+<a href="Bombarderos.html"><img src="imagenes.nuevas/Bombarderos-converted-from-jpg.webp" alt=""></a>
 <h2>Bombarderos</h2>
 </section>
 <section>

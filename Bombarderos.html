@@ -21,16 +21,37 @@
             text-align: center;
         }
         li{
-        color: red;
-        text-align: left;
-        display: inline;
+            color: red;
+            text-align: left;
+            display: inline;
         }
         nav{
-        text-align: left;
+            text-align: left;
         }
         a{
             text-decoration: none;
             color: inherit;
+        }
+        @media (max-width: 480px) {
+            section {
+                display: block;
+                margin: 20px auto;
+                padding-top: 20px;
+            }
+            img {
+                width: 90%;
+                max-width: 350px;
+            }
+            nav ol {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 10px;
+            }
+            li {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
@@ -56,6 +77,38 @@
   }
 ]
 </script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Leyendas del Aire",
+            "item": "https://alexwater2.github.io/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Países",
+            "item": "https://alexwater2.github.io/Pa%C3%ADses.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "EE.UU",
+            "item": "https://alexwater2.github.io/Paises1.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Bombarderos",
+            "item": "https://alexwater2.github.io/Bombarderos.html"
+        }
+    ]
+}
+</script>
 <body>
     <nav>
         <ol>
@@ -77,6 +130,5 @@
 <img src="imagenes.nuevas/B-1 Lancer.jpg" alt="">
 <h2>B-1 Lancer</h2>
 </section>
-    
 </body>
 </html>

@@ -50,6 +50,31 @@
     nav{
         text-align: left;
     }
+
+    @media (max-width: 480px) {
+    section {
+        display: block;
+        margin: 30px auto;
+        padding-top: 20px;
+    }
+
+    img {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    nav ol {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+
+    li {
+        display: block;
+        margin: 5px 0;
+    }
+}
     </style>
 </head>
 <script type="application/ld+json">
@@ -67,31 +92,26 @@
     "articleBody": "Brasil"
   }
 ]
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Leyendas del Aire"
-    "item":https://alexwater2.github.io/index.html
-    
-  }
-  ]
 </script>
 <script type="application/ld+json">
-    [
 {
     "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Países"
-    "item":https://alexwater2.github.io/Pa%C3%ADses.html
-    
-  }
-  ]
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Leyendas del Aire",
+            "item": "https://alexwater2.github.io/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Países",
+            "item": "https://alexwater2.github.io/Pa%C3%ADses.html"
+        }
+    ]
+}
 </script>
 <body>
 <nav>

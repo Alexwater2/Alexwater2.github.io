@@ -20,16 +20,36 @@
             text-align: center;
         }
         li{
-        color: red;
-        text-align: left;
-        display: inline;
+            color: red;
+            text-align: left;
+            display: inline;
         }
         nav{
-        text-align: left;
+            text-align: left;
         }
         a{
             text-decoration: none;
             color: inherit;
+        }
+        @media (max-width: 480px) {
+            section {
+                display: block;
+                margin: 20px auto;
+            }
+            img {
+                width: 90%;
+                max-width: 350px;
+            }
+            nav ol {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 10px;
+            }
+            li {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
@@ -66,52 +86,37 @@
     "articleBody": "F-15"
   }
 ]
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Leyendas del Aire"
-    "item":https://alexwater2.github.io/index.html
-    ]
-  }
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Países"
-    "item":https://alexwater2.github.io/Pa%C3%ADses.html
-    
-  }
-  ]
-  [
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Paises1"
-    "item":https://alexwater2.github.io/Paises1.html
-    
-  }
-  ]
-
 </script>
-  <script type="application/ld+json">
-  {
+<script type="application/ld+json">
+{
     "@context": "https://schema.org",
-    "@type": "BreadcumbList",
-    "itemListElement":[
-    "@type": "ListItem",
-    "position": 4,
-    "name": "Cazas"
-    "item":https://alexwater2.github.io/Cazas.html
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Leyendas del Aire",
+            "item": "https://alexwater2.github.io/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Países",
+            "item": "https://alexwater2.github.io/Pa%C3%ADses.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "EE.UU",
+            "item": "https://alexwater2.github.io/Paises1.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Cazas",
+            "item": "https://alexwater2.github.io/Cazas.html"
+        }
     ]
-  }
 }
 </script>
 <body>
@@ -135,13 +140,13 @@
 <img src="imagenes/F-18-converted-from-jpg.webp" alt="">
 <h2>F-18</h2>
 </section>
-<section> 
+<section>
 <img src="imagenes/F-16-converted-from-jpg.webp" alt="">
 <h2>F-16</h2>
 </section>
 <section>
 <img src="imagenes/F-15-converted-from-jpg.webp" alt="">
 <h2>F-15</h2>
-</section>  
+</section>
 </body>
 </html>

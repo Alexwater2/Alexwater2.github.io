@@ -2,34 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=ª, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/logo_aviones_de_combate-removebg-preview 3.png">
     <title>Guerra Electrónica</title>
     <style>
-    img{
-        width: 900px;
-        border: 1px solid black;
-        border-radius: 12px;
-    }
-    section{
-        text-align: center;
-        padding-top: 150px;
-    }
-    body{
-        text-align: center;
-    }
-    li{
-        color: red;
-        text-align: left;
-        display: inline;
-    }
-    nav{
-        text-align: left;
-    }
-    a{
-        text-decoration: none;
-        color: inherit;
-    }
+        img{
+            width: 900px;
+            border: 1px solid black;
+            border-radius: 12px;
+        }
+        section{
+            text-align: center;
+            padding-top: 150px;
+        }
+        body{
+            text-align: center;
+        }
+        li{
+            color: red;
+            text-align: left;
+            display: inline;
+        }
+        nav{
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        @media (max-width: 480px) {
+            section {
+                padding-top: 30px;
+            }
+            img {
+                width: 95%;
+                max-width: 400px;
+            }
+            nav ol {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 10px;
+            }
+            li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
     </style>
 </head>
 <script type="application/ld+json">
@@ -38,6 +57,38 @@
   "@type": "Article",
   "image": "https://alexwater2.github.io/imagenes.nuevas/EA-18G%20Growler.jpg",
   "articleBody": "EA-18G Growler"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Leyendas del Aire",
+            "item": "https://alexwater2.github.io/index.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Países",
+            "item": "https://alexwater2.github.io/Pa%C3%ADses.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "EE.UU",
+            "item": "https://alexwater2.github.io/Paises1.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Guerra Electrónica",
+            "item": "https://alexwater2.github.io/Guerra.Electr%C3%B3nica.html"
+        }
+    ]
 }
 </script>
 <body>
@@ -50,7 +101,7 @@
         </ol>
     </nav>
 <section>
-<img src="imagenes.nuevas/EA-18G Growler.jpg" alt=""> 
+<img src="imagenes.nuevas/EA-18G Growler.jpg" alt="">
 <h2>EA-18G Growler</h2>
 </section>
 </body>

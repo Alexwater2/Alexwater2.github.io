@@ -54,3 +54,36 @@ nav{
     text-align: left;
     margin-left: 0;
 }
+
+@media (max-width: 480px) {
+    section {
+        display: block;
+        margin: 30px auto;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    nav ol {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: block;
+        margin: 5px 10px;
+    }
+
+    .audio-container {
+        text-align: center;
+    }
+}
